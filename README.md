@@ -20,7 +20,7 @@ Owner Relation:
 OwnerEmail--->(OwnerLastName, OwnerFirstName, OwnerPhone)
 OwnerPhone--->(OwnerLastName, OwnerFirstName, OwnerEmail)
 
-# Candidate keys for owner: OwnerEmail, OwnerPhone
+## Candidate keys for owner: OwnerEmail, OwnerPhone
 Now, both determinants are candidate keys.
 
 Pet Relation:
@@ -33,7 +33,7 @@ Service--->(Date, Charge)
 
 The determinant for Service is a candidate key: Service.
 
-# We will choose OwnerPhone as the primary key. 
+## We will choose OwnerPhone as the primary key. 
 
 Owner(OwnerPhone, OwnerLastName, OwnerFirstName, OwnerEmail)
 Pet(PetName, PetType, PetBreed, PetDOB, OwnerPhone)
