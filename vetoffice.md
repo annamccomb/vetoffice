@@ -37,5 +37,5 @@ The determinant for Service is a candidate key: Service.
 
 Owner(OwnerPhone, OwnerLastName, OwnerFirstName, OwnerEmail)
 Pet(PetID, PetName, PetType, PetBreed, PetDOB, OwnerPhone)
-Service(Date, Charge, PetID, OwnerPhone)
+Service(Service, Date, Charge, PetID, OwnerPhone)
 
