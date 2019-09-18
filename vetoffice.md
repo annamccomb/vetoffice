@@ -1,4 +1,4 @@
-# vetoffice
+# vetoffice (Anna McComb & Reid Scott)
 exercise 02B
 
 Pet-and-owner-and-service(PetName, PetType, PetBreed, PetDOB, OwnerLastName, OwnerFirstName, OwnerPhone, OwnerEmail, Service, Date, Charge)
